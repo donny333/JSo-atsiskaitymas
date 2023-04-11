@@ -59,3 +59,19 @@
   border-radius: 5px;
   background-color: #fff;
 }
+
+#output{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.avatar{
+  text-align: center;
+  width: 100px;
+}
+.avatar > img{
+  height: 100px;
+  border-radius: 5px;
+}
