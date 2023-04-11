@@ -28,7 +28,8 @@ document
         lbHeading.appendChild(lbTextNode);
         gHeading.appendChild(gTextNode);
         ozHeading.appendChild(ozTextNode);
-
+        
+        outputDiv.innerHTML = ''
         outputDiv.append(lbHeading, gHeading, ozHeading);
 
 
